@@ -1,0 +1,24 @@
+[07:49-2019-06-12]
+System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at System.String.Join(String separator, String[] value)
+   at NadekoBot.Modules.NSFW.NSFW.AutoHentai(Int32 interval, String tags) in /root/NadekoBot/NadekoBot.Core/Modules/Nsfw/NSFW.cs:line 148
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   at Discord.Commands.CommandInfo.ExecuteAsync(ICommandContext context, IEnumerable`1 argList, IEnumerable`1 paramList, IServiceProvider services)
+------
+[07:49-2019-06-12]
+System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at System.String.Join(String separator, String[] value)
+   at NadekoBot.Modules.NSFW.NSFW.AutoHentai(Int32 interval, String tags) in /root/NadekoBot/NadekoBot.Core/Modules/Nsfw/NSFW.cs:line 148
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   at Discord.Commands.CommandInfo.ExecuteAsync(ICommandContext context, IEnumerable`1 argList, IEnumerable`1 paramList, IServiceProvider services)
+------

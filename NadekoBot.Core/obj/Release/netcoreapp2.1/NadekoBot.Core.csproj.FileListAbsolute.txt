@@ -1,0 +1,11 @@
+C:\Users\Devs\Downloads\nadekobot-1.9\nadekobot-1.9\NadekoBot.Core\bin\release\netcoreapp2.1\NadekoBot.Core.deps.json
+C:\Users\Devs\Downloads\nadekobot-1.9\nadekobot-1.9\NadekoBot.Core\bin\release\netcoreapp2.1\NadekoBot.Core.runtimeconfig.json
+C:\Users\Devs\Downloads\nadekobot-1.9\nadekobot-1.9\NadekoBot.Core\bin\release\netcoreapp2.1\NadekoBot.Core.runtimeconfig.dev.json
+C:\Users\Devs\Downloads\nadekobot-1.9\nadekobot-1.9\NadekoBot.Core\bin\release\netcoreapp2.1\NadekoBot.Core.dll
+C:\Users\Devs\Downloads\nadekobot-1.9\nadekobot-1.9\NadekoBot.Core\bin\release\netcoreapp2.1\NadekoBot.Core.pdb
+C:\Users\Devs\Downloads\nadekobot-1.9\nadekobot-1.9\NadekoBot.Core\obj\release\netcoreapp2.1\NadekoBot.Core.csprojAssemblyReference.cache
+C:\Users\Devs\Downloads\nadekobot-1.9\nadekobot-1.9\NadekoBot.Core\obj\release\netcoreapp2.1\NadekoBot.Core.csproj.CoreCompileInputs.cache
+C:\Users\Devs\Downloads\nadekobot-1.9\nadekobot-1.9\NadekoBot.Core\obj\release\netcoreapp2.1\NadekoBot.Core.AssemblyInfoInputs.cache
+C:\Users\Devs\Downloads\nadekobot-1.9\nadekobot-1.9\NadekoBot.Core\obj\release\netcoreapp2.1\NadekoBot.Core.AssemblyInfo.cs
+C:\Users\Devs\Downloads\nadekobot-1.9\nadekobot-1.9\NadekoBot.Core\obj\release\netcoreapp2.1\NadekoBot.Core.dll
+C:\Users\Devs\Downloads\nadekobot-1.9\nadekobot-1.9\NadekoBot.Core\obj\release\netcoreapp2.1\NadekoBot.Core.pdb

@@ -1,0 +1,59 @@
+[03:14-2019-06-11]
+NadekoBot.Modules.Music.Common.Exceptions.NotInVoiceChannelException: You're not in the voice channel on this server.
+   at NadekoBot.Modules.Music.Services.MusicService.GetOrCreatePlayer(UInt64 guildId, IVoiceChannel voiceCh, ITextChannel textCh) in /root/NadekoBot/NadekoBot.Core/Modules/Music/Services/MusicService.cs:line 112
+   at NadekoBot.Modules.Music.Music.Play(String query) in /root/NadekoBot/NadekoBot.Core/Modules/Music/Music.cs:line 148
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   at Discord.Commands.CommandInfo.ExecuteAsync(ICommandContext context, IEnumerable`1 argList, IEnumerable`1 paramList, IServiceProvider services)
+------
+[03:15-2019-06-11]
+NadekoBot.Modules.Music.Common.Exceptions.NotInVoiceChannelException: You're not in the voice channel on this server.
+   at NadekoBot.Modules.Music.Services.MusicService.GetOrCreatePlayer(UInt64 guildId, IVoiceChannel voiceCh, ITextChannel textCh) in /root/NadekoBot/NadekoBot.Core/Modules/Music/Services/MusicService.cs:line 112
+   at NadekoBot.Modules.Music.Music.Play(String query) in /root/NadekoBot/NadekoBot.Core/Modules/Music/Music.cs:line 148
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   at Discord.Commands.CommandInfo.ExecuteAsync(ICommandContext context, IEnumerable`1 argList, IEnumerable`1 paramList, IServiceProvider services)
+------
+[03:19-2019-06-11]
+System.InvalidOperationException: Url is either not a track, or it doesn't exist.
+   at NadekoBot.Core.Services.Impl.SoundCloudApiService.ResolveVideoAsync(String url) in /root/NadekoBot/NadekoBot.Core/Services/Impl/SoundCloudApiService.cs:line 23
+   at NadekoBot.Modules.Music.Common.SongResolver.Strategies.SoundcloudResolveStrategy.ResolveSong(String query) in /root/NadekoBot/NadekoBot.Core/Modules/Music/Common/SongResolver/Strategies/SoundCloudResolveStrategy.cs:line 18
+   at NadekoBot.Modules.Music.Services.MusicService.ResolveSong(String query, String queuerName, Nullable`1 musicType) in /root/NadekoBot/NadekoBot.Core/Modules/Music/Services/MusicService.cs:line 233
+   at NadekoBot.Modules.Music.Music.SoundCloudQueue(String query) in /root/NadekoBot/NadekoBot.Core/Modules/Music/Music.cs:line 643
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   at Discord.Commands.CommandInfo.ExecuteAsync(ICommandContext context, IEnumerable`1 argList, IEnumerable`1 paramList, IServiceProvider services)
+------
+[03:20-2019-06-11]
+System.InvalidOperationException: Url is either not a track, or it doesn't exist.
+   at NadekoBot.Core.Services.Impl.SoundCloudApiService.ResolveVideoAsync(String url) in /root/NadekoBot/NadekoBot.Core/Services/Impl/SoundCloudApiService.cs:line 23
+   at NadekoBot.Modules.Music.Common.SongResolver.Strategies.SoundcloudResolveStrategy.ResolveSong(String query) in /root/NadekoBot/NadekoBot.Core/Modules/Music/Common/SongResolver/Strategies/SoundCloudResolveStrategy.cs:line 18
+   at NadekoBot.Modules.Music.Services.MusicService.ResolveSong(String query, String queuerName, Nullable`1 musicType) in /root/NadekoBot/NadekoBot.Core/Modules/Music/Services/MusicService.cs:line 233
+   at NadekoBot.Modules.Music.Music.SoundCloudQueue(String query) in /root/NadekoBot/NadekoBot.Core/Modules/Music/Music.cs:line 643
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   at Discord.Commands.CommandInfo.ExecuteAsync(ICommandContext context, IEnumerable`1 argList, IEnumerable`1 paramList, IServiceProvider services)
+------
+[03:22-2019-06-11]
+NadekoBot.Modules.Music.Common.Exceptions.NotInVoiceChannelException: You're not in the voice channel on this server.
+   at NadekoBot.Modules.Music.Services.MusicService.GetOrCreatePlayer(UInt64 guildId, IVoiceChannel voiceCh, ITextChannel textCh) in /root/NadekoBot/NadekoBot.Core/Modules/Music/Services/MusicService.cs:line 112
+   at NadekoBot.Modules.Music.Music.Play(String query) in /root/NadekoBot/NadekoBot.Core/Modules/Music/Music.cs:line 148
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   at Discord.Commands.CommandInfo.ExecuteAsync(ICommandContext context, IEnumerable`1 argList, IEnumerable`1 paramList, IServiceProvider services)
+------

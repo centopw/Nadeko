@@ -1,0 +1,11 @@
+[15:55-2019-06-28]
+System.Exception: One of the specified tags is blacklisted
+   at NadekoBot.Modules.Searches.Common.SearchImageCacher.GetImage(String[] tags, Boolean forceExplicit, DapiSearchType type, HashSet`1 blacklistedTags)
+   at NadekoBot.Modules.NSFW.NSFW.InternalHentai(IMessageChannel channel, String tag) in /root/NadekoBot/NadekoBot.Core/Modules/Nsfw/NSFW.cs:line 54
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   at Discord.Commands.CommandInfo.ExecuteAsync(ICommandContext context, IEnumerable`1 argList, IEnumerable`1 paramList, IServiceProvider services)
+------

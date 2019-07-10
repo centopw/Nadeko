@@ -1,0 +1,35 @@
+[03:09-2019-06-15]
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Blackcat'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at NadekoBot.Core.Modules.Administration.Services.DangerousCommandsService.SelectSql(String sql) in /root/NadekoBot/NadekoBot.Core/Modules/Administration/Services/DangerousCommandsService.cs:line 70
+   at NadekoBot.Modules.Administration.Administration.DangerousCommands.SqlSelect(String sql)
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   at Discord.Commands.CommandInfo.ExecuteAsync(ICommandContext context, IEnumerable`1 argList, IEnumerable`1 paramList, IServiceProvider services)
+------
+[03:10-2019-06-15]
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'incomplete input'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at NadekoBot.Core.Modules.Administration.Services.DangerousCommandsService.SelectSql(String sql) in /root/NadekoBot/NadekoBot.Core/Modules/Administration/Services/DangerousCommandsService.cs:line 70
+   at NadekoBot.Modules.Administration.Administration.DangerousCommands.SqlSelect(String sql)
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   at Discord.Commands.CommandInfo.ExecuteAsync(ICommandContext context, IEnumerable`1 argList, IEnumerable`1 paramList, IServiceProvider services)
+------
+[03:53-2019-06-15]
+NCalc.EvaluationException: missing EndOfFile at 'plus' at line 1:3
+   at NCalc.Expression.Evaluate()
+   at NadekoBot.Modules.Utility.Utility.CalcCommands.Calculate(String expression) in /root/NadekoBot/NadekoBot.Core/Modules/Utility/CalcCommands.cs:line 22
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   at Discord.Commands.CommandInfo.ExecuteAsync(ICommandContext context, IEnumerable`1 argList, IEnumerable`1 paramList, IServiceProvider services)
+------

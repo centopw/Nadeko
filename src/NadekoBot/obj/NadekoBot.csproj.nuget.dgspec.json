@@ -1,0 +1,229 @@
+{
+  "format": 1,
+  "restore": {
+    "/root/NadekoBot/src/NadekoBot/NadekoBot.csproj": {}
+  },
+  "projects": {
+    "/root/NadekoBot/NadekoBot.Core/NadekoBot.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/root/NadekoBot/NadekoBot.Core/NadekoBot.Core.csproj",
+        "projectName": "NadekoBot.Core",
+        "projectPath": "/root/NadekoBot/NadekoBot.Core/NadekoBot.Core.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/root/NadekoBot/NadekoBot.Core/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/root/NadekoBot/NuGet.Config",
+          "/root/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/discord-net/api/v3/index.json": {},
+          "https://www.myget.org/F/kwoth/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "AngleSharp": {
+              "target": "Package",
+              "version": "[0.9.10, )"
+            },
+            "CommandLineParser": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "CoreCLR-NCalc": {
+              "target": "Package",
+              "version": "[2.2.34, )"
+            },
+            "Discord.Net": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "Google.Apis.Customsearch.v1": {
+              "target": "Package",
+              "version": "[1.35.1.1301, )"
+            },
+            "Google.Apis.Urlshortener.v1": {
+              "target": "Package",
+              "version": "[1.35.1.138, )"
+            },
+            "Google.Apis.YouTube.v3": {
+              "target": "Package",
+              "version": "[1.35.1.1226, )"
+            },
+            "Html2Markdown": {
+              "target": "Package",
+              "version": "[3.2.1.341, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.SyndicationFeed.ReaderWriter": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[4.5.8, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[11.0.2, )"
+            },
+            "Octokit": {
+              "target": "Package",
+              "version": "[0.31.0, )"
+            },
+            "SixLabors.ImageSharp": {
+              "target": "Package",
+              "version": "[1.0.0-beta0004, )"
+            },
+            "SixLabors.ImageSharp.Drawing": {
+              "target": "Package",
+              "version": "[1.0.0-beta0004, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[1.2.7-alpha-00002, )"
+            },
+            "System.ValueTuple": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "YoutubeExplode": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/root/NadekoBot/src/NadekoBot/NadekoBot.csproj": {
+      "version": "2.0.0",
+      "restore": {
+        "projectUniqueName": "/root/NadekoBot/src/NadekoBot/NadekoBot.csproj",
+        "projectName": "NadekoBot",
+        "projectPath": "/root/NadekoBot/src/NadekoBot/NadekoBot.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/root/NadekoBot/src/NadekoBot/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/root/NadekoBot/NuGet.Config",
+          "/root/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/discord-net/api/v3/index.json": {},
+          "https://www.myget.org/F/kwoth/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "/root/NadekoBot/NadekoBot.Core/NadekoBot.Core.csproj": {
+                "projectPath": "/root/NadekoBot/NadekoBot.Core/NadekoBot.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[4.5.8, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

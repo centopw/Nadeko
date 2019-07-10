@@ -1,0 +1,45 @@
+[08:45-2019-05-19]
+NadekoBot.Modules.Music.Common.Exceptions.NotInVoiceChannelException: You're not in the voice channel on this server.
+   at NadekoBot.Modules.Music.Services.MusicService.GetOrCreatePlayer(UInt64 guildId, IVoiceChannel voiceCh, ITextChannel textCh) in C:\Users\Devs\Downloads\nadekobot-1.9\nadekobot-1.9\NadekoBot.Core\Modules\Music\Services\MusicService.cs:line 114
+   at NadekoBot.Modules.Music.Music.Stop() in C:\Users\Devs\Downloads\nadekobot-1.9\nadekobot-1.9\NadekoBot.Core\Modules\Music\Music.cs:line 336
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   at Discord.Commands.CommandInfo.ExecuteAsync(ICommandContext context, IEnumerable`1 argList, IEnumerable`1 paramList, IServiceProvider services)
+------
+[12:54-2019-05-19]
+System.NotSupportedException: Image cannot be loaded. Available decoders:
+ - PNG : PngDecoder
+ - GIF : GifDecoder
+ - JPEG : JpegDecoder
+ - BMP : BmpDecoder
+
+   at SixLabors.ImageSharp.Image.Load[TPixel](Configuration config, Stream stream, IImageFormat& format)
+   at SixLabors.ImageSharp.Image.Load[TPixel](Configuration config, Byte[] data)
+   at NadekoBot.Modules.Gambling.Gambling.SlotCommands.Slot(ShmartNumber amount) in C:\Users\Devs\Downloads\nadekobot-1.9\nadekobot-1.9\NadekoBot.Core\Modules\Gambling\SlotCommands.cs:line 165
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   at Discord.Commands.CommandInfo.ExecuteAsync(ICommandContext context, IEnumerable`1 argList, IEnumerable`1 paramList, IServiceProvider services)
+------
+[12:54-2019-05-19]
+System.NotSupportedException: Image cannot be loaded. Available decoders:
+ - PNG : PngDecoder
+ - GIF : GifDecoder
+ - JPEG : JpegDecoder
+ - BMP : BmpDecoder
+
+   at SixLabors.ImageSharp.Image.Load[TPixel](Configuration config, Stream stream, IImageFormat& format)
+   at SixLabors.ImageSharp.Image.Load[TPixel](Configuration config, Byte[] data)
+   at NadekoBot.Modules.Gambling.Gambling.SlotCommands.Slot(ShmartNumber amount) in C:\Users\Devs\Downloads\nadekobot-1.9\nadekobot-1.9\NadekoBot.Core\Modules\Gambling\SlotCommands.cs:line 165
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   at Discord.Commands.CommandInfo.ExecuteAsync(ICommandContext context, IEnumerable`1 argList, IEnumerable`1 paramList, IServiceProvider services)
+------
